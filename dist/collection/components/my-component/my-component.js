@@ -4,7 +4,7 @@ export class MyComponent {
         return format(this.first, this.middle, this.last);
     }
     render() {
-        return h("div", null,
+        return h("ion-button", null,
             "Hello, World! I'm ",
             this.getText());
     }

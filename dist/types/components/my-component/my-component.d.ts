@@ -1,4 +1,5 @@
 import '../../stencil.core';
+import '@ionic/core';
 export declare class MyComponent {
     /**
      * The first name
